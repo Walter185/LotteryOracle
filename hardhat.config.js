@@ -19,4 +19,7 @@ module.exports = {
       sepolia: ETHERSCAN_API_KEY,
     },
   },
+  sourcify: {
+  enabled: true
+}
 };
