@@ -14,6 +14,11 @@ npm i ethers
 instalar el .env:
 npm i dotenv                                                    
 
+crear un archivo .env y colocar informacion privada en este formato:
+NODO = "..." // clave privada de https://www.infura.io/
+ETHSCAN_KEY = "..." // clave privada de https://sepolia.etherscan.io/
+PRKEY = "..."  // clave privada de una wallet
+
 compilar el contrato:
 npx hardhat compile                                             
 
