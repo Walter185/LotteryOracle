@@ -1,10 +1,10 @@
 const { ethers } = require("ethers");
 
 // Conexión al nodo local
-const provider = new ethers.JsonRpcProvider("https://sepolia.infura.io/v3/1517aa04ef72416e9e46dc85c5274875");
+const provider = new ethers.JsonRpcProvider(process.env.NODO);
 
 // Dirección del contrato
-const contractAddress = "0x74E9Ec4BDad77702EFD0cAd04c9529DA590A8fC4";
+const contractAddress = "0x390F2747330293f738E316CE86815B54BE21ab8B"; // aca va el contrato que me dio npx hardhat ignition deploy ./ignition/modules/Lottery.js --network sepolia 
 
 // ABI del contrato (asegúrate de incluir el ABI correcto)
 const abi = [
